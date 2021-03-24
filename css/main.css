@@ -97,12 +97,14 @@ textarea {
 
 
 html {
-  background-color: #fff;
+ 
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+background-image: url("/img/background-texture-green");
+background:rgb(95, 110, 199);
+  font-family: 'Pangolin', cursive;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -112,7 +114,8 @@ body {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
+  
+  
 }
 
 .div-1, .div-2, .div-3 {
@@ -123,9 +126,11 @@ body {
   width: 30%;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: #0c0552;
   height: 300px;
+  border: 5px solid rgb(41, 148, 38);
+  
 }
 
 
