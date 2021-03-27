@@ -97,23 +97,30 @@ textarea {
 
 
 html {
- 
-  height: 100%;
+    background:rgb(241, 241, 241);
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    border-bottom: 2px solid #222;
 }
 
 body {
-background-image: url("/img/background-texture-green");
-background:rgb(95, 110, 199);
-  font-family: 'Pangolin', cursive;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+    
+    font-family: 'Pangolin', cursive;
+    padding: 2em;
+    font-size: 1.25em;
+    height: 100%;
 }
 
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  display: flex;
-  justify-content: space-between;
+ 
+ display: flex;
+ flex-basis: 100px;
+  background-color: rgb(243, 215, 237);
+  
   
   
 }
@@ -123,15 +130,41 @@ background:rgb(95, 110, 199);
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
-  color: #fff;
+  color: rgb(1, 8, 14);
   line-height: 1.5em;
   font-size: 1em;
-  background-color: #0c0552;
-  height: 300px;
-  border: 5px solid rgb(41, 148, 38);
+  height: 250px;
+  
+
   
 }
+
+.div-1, .div-2 {
+    border-right: 2px dotted #222;
+    margin-right: 20px;
+}
+
+header, footer {
+    width: 100%;
+   
+    
+
+
+}
+footer {
+    display: flex;
+    border-top: 2px solid #222;
+    height: 250px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
 
 
 
