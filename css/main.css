@@ -133,9 +133,9 @@ body {
   align-items: center;
   color: rgb(1, 8, 14);
   line-height: 1.5em;
-  font-size: 1em;
+  font-size: 1.14em;
   height: 250px;
-  width: 30%;
+  width: 33%;
   
 
   
@@ -147,6 +147,7 @@ body {
 }
 
 header, footer {
+    display: flex;
     width: 100%;
    
     
@@ -156,12 +157,13 @@ header, footer {
 footer {
     display: flex;
     border-top: 2px solid #222;
-    height: 250px;
+    height: 100px;
 }
 
 .icons {
     display: flex;
-    justify-content: center;
+    width: 25%;
+    justify-content: space-around;
     align-items: center;
     padding-top: 20px;
 
